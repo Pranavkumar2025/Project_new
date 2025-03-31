@@ -25,9 +25,9 @@ const railwayData = [
 
 const Railway = () => {
   const [selectedDate, setSelectedDate] = useState(null);
-
+  // bg-[#0F0B0C]
   return (
-    <div className="bg-[#0F0B0C] min-h-screen p-6">
+    <div className="bg-white min-h-screen p-6">
       <div className="flex flex-col md:flex-row gap-6 max-w-7xl mx-auto">
         {/* 📅 Timetable Section (Left Side) */}
         <div className="bg-[#1D0E11] p-6 rounded-2xl shadow-lg text-white w-full md:w-1/3 min-h-[400px]">
